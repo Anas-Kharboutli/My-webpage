@@ -1,0 +1,152 @@
+/*styling my landing page*/ 
+body {
+    background-color:ghostwhite;
+}
+
+nav {
+    font-size: 1.2em;
+}
+
+#myimage {
+    position: absolute;
+    border-radius: 15px 50px;
+    top: 20%;
+    left: 5%;
+    width: 300px; 
+    height: 300px;
+}
+
+#bio {
+    position: absolute;
+    left: 37%;
+    right: 5%;
+    top: 23%;
+    font-size: 1.3em;
+    font-weight:300;
+    background-color:rgb(242, 243, 244);
+    font-family: Monospace;
+    text-align: center;
+}
+
+.watch {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.video {
+    position: absolute;
+    top: 105%;
+    left: 30%;
+}
+/*styling my projects page*/ 
+
+h1 { 
+    font-family:fantasy;
+    text-align: center;
+}
+
+#pacman {
+    position: absolute;
+    display: block;
+    left: 5%;
+    top: 40%;
+    height: 150px;
+    width: 150px;
+    transition: width 2s, height 2s, transform 2s;    
+}
+
+#pacman:hover {
+    width: 175px;
+    height: 175px;
+    transform: rotate(360deg);
+    background-color: rgb(240, 241, 242);
+  }
+
+#eyes {
+    position: absolute;
+    display: block;
+    left: 35%;
+    top: 40%;
+    height: 150px;
+    width: 150px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+#eyes:hover {
+    width: 175px;
+    height: 175px;
+    transform: rotate(360deg);
+    background-color: rgb(200, 217, 229);
+  }
+
+#bus {
+    position: absolute;
+    display: block;
+    left: 65%;
+    top: 40%;
+    height: 150px;
+    width: 150px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+#bus:hover {
+    width: 175px;
+    height: 175px;
+    transform: rotate(360deg);
+    background-color: rgb(240, 241, 242);
+}
+
+.repo1 {
+    position: absolute;
+    top: 20%;
+    left: 39%;
+    background-color: rgb(12, 2, 35);
+    color: azure;
+}
+
+.title1 {
+    position: absolute;
+    left: 5%;
+    top: 30%;
+}
+
+.title2 {
+    position: absolute;
+    left: 36%;
+    top: 30%;
+}
+
+.title3 {
+    position: absolute;
+    left: 62%;
+    top: 30%;
+}
+
+/*styling contacts page*/
+
+h2 {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-weight: bold;
+}
+
+li {
+    display: inline;
+    padding: 60px;
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+.contacts {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+
+    
+}
+
